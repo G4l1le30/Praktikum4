@@ -2,13 +2,16 @@
 function tambahBilangan($a, $b) {
     return $a + $b;
 }
+$int1=5;
+$int2=7;
+$int3=15;
+$int4=30;
+$hasil1 = tambahBilangan($int1, $int2);
+$hasil2 = tambahBilangan($int3, $int4);
 
-$hasil1 = tambahBilangan(5, 7);
-$hasil2 = tambahBilangan(15, 25);
-
-echo "Hasil Penjumlahan Pertama: " . $hasil1 . "\n";
+echo "Hasil Penjumlahan \"$int1\" dan \"$int2\": " . $hasil1 . "\n";
 echo "<br/>";
-echo "Hasil Penjumlahan Kedua: " . $hasil2 . "\n";
+echo "Hasil Penjumlahan \"$int3\" dan \"$int4\": " . $hasil2 . "\n";
 echo "<br/>";
 
 function hitungPanjangString($str) {
