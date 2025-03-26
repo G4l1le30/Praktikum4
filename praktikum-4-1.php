@@ -2,9 +2,9 @@
 
 $fruits = ['pepaya', 'mangga', 'pisang', 'jambu'];
 
-echo "Dengan print_r():\n";
+echo "Dengan print_r():<br>";
 print_r($fruits);
 echo "<br/>";
-echo "\n\nDengan var_dump():\n";
+echo "<br>Dengan var_dump():<br>";
 var_dump($fruits);
 ?>
