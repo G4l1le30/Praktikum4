@@ -21,7 +21,6 @@ $panjang1 = hitungPanjangString($kata1);
 $panjang2 = hitungPanjangString($kata2);
 
 
-echo "Panjang String \"$kata1\": " . $panjang1 . "\n";
-echo "<br/>";
-echo "Panjang String \"$kata2\": " . $panjang2 . "\n";
+echo "Panjang String \"$kata1\": " . $panjang1 . "<br>";
+echo "Panjang String \"$kata2\": " . $panjang2 . "<br>";
 ?>
